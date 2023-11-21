@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QTableWidgetItem, QMainWindow
 class AddEditDatabase(QWidget):
     def __init__(self):
         super().__init__()
-        uic.loadUi('addEditCoffeeForm.ui', self)
+        uic.loadUi('main.ui', self)
         self.initUi()
 
     def initUi(self):
